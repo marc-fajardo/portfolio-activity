@@ -15,9 +15,26 @@ navbar{
 }
 
 .main{
-    background: url(/imgs/marc_profpic-removebg.png);
+    background: url(/images/marc_profpic-removebg.png);
     background-size:cover;
     background-position: top;
     width: 60%;
     height: 100vh;
+}
+
+.main h3{
+    font-weight: 300;
+}
+
+.main h5{
+    font-size: 4.4rem;
+    font-weight: 700;
+    border-bottom: 3px solid blueviolet;
+    width: 45%;
+}
+
+.main h6{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
 }
