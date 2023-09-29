@@ -38,3 +38,34 @@ navbar{
     text-transform: uppercase;
     line-height: 1;
 }
+
+.about img{
+    box-shadow: 25px 50px 84px -15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 25px 50px 84px -15px rgba(0,0,0,0.75);
+-moz-box-shadow: 25px 50px 84px -15px rgba(0,0,0,0.75);
+}
+
+.about h1{
+    font-size: 3rem;
+    font-weight:900;
+}
+
+.violet{
+    background-color: blueviolet;
+}
+
+.progress{
+    background-color: rgb(223,219,219);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position:relative;
+    display: flex;
+    height: 35px;
+    width: 90%;
+}
+
+.progress p{
+    color: white;
+    padding:8px;
+}
