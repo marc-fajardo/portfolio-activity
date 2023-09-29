@@ -69,3 +69,56 @@ navbar{
     color: white;
     padding:8px;
 }
+
+.pro-value1{
+    animation: scrollprog 3s normal forwards;
+    border-radius: 50px;
+    background-color:blueviolet;
+    height:35px;
+    width: 0;
+}
+
+@keyframes scrollprog{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:90%;
+    }
+}
+
+.pro-value2{
+    animation: scrollprog2 3s normal forwards;
+    border-radius: 50px;
+    background-color:blueviolet;
+    height:35px;
+    width: 0;
+}
+
+@keyframes scrollprog2{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:75%;
+    }
+}
+
+.pro-value3{
+    animation: scrollprog3 3s normal forwards;
+    border-radius: 50px;
+    background-color:blueviolet;
+    height:35px;
+    width: 0;
+}
+
+
+
+@keyframes scrollprog3{
+    0%{
+        width:0px;
+    }
+    100%{
+        width:80%;
+    }
+}
