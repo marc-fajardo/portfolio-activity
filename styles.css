@@ -122,3 +122,13 @@ navbar{
         width:80%;
     }
 }
+
+@media (max-width: 768px) {
+    .about {
+      padding: 5vh 4vw; /* Add spacing around the section using viewport units */
+    }
+  
+    .col-lg-7 {
+      padding-top: 5vh; /* Add top padding for better spacing */
+    }
+  }
