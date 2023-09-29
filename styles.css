@@ -15,6 +15,9 @@ navbar{
 }
 
 .main{
+    background: url(/images/marc_profpic-removebg.png);
+    background-size:cover;
+    background-position: top;
     width: 60%;
     height: 100vh;
 }
